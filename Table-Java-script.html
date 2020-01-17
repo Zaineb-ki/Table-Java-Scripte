@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java-Sccript | Table HTML</title>
+    <!-- link of CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- link of Script -->
+</head>
+<body>
+    <h1>Formulaire personnel</h1>
+    <table>
+        <tr>
+        <!-- html form for JS operation -->
+            <td>
+                <form autocomplete="on"  class="formulaire">
+                    <div>
+                        <label><p class="titre">Nom</p></label>
+                        <input type="text" placeholder="Votre Nom" name="Nom" id="Nom">     
+                    </div>
+                    <div>
+                        <label><p class="titre">Prénom</p></label>
+                        <input type="text" placeholder="Votre prénom" name="Prenom" id="Prenom">     
+                    </div>
+                    <div>
+                        <label><p class="titre">Date de naissance</p></label>
+                        <input type="text" placeholder="Exemple : 08/10/2010" name="date" id="date">     
+                    </div>
+                    <div>
+                        <label><p class="titre">Lieu de naissance</p></label>
+                        <input type="text" placeholder="lieu de naissance" name="lieu" id="lieu">     
+                    </div>
+                    <div>
+                        <label><p class="titre">Numéro de téléphone</p></label>
+                        <input type="text" placeholder="+212....." name="telephone" id="telephone">     
+                    </div>
+                    <div>
+                        <label><p class="titre">Adresse</p></label>
+                        <input type="text" placeholder="Adresse" name="Adresse" id="Adresse">     
+                    </div>
+                    <br>
+                    <div class="form-action-buttons ">
+                        <input type="button" value="Souscrire" onclick="inputUtilisateurFormulaire()">
+                    </div>
+                </form>
+                
+            </td> 
+   
+        
+        </tr>
+    </table>
+         <!-- Table to liste -->
+         
+            <table class="person" id="personellist" style="margin-top: 7%;">
+                
+                    <tr class="personellist">
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Date de naissance</th>
+                        <th>Lieu de naissance</th>
+                        <th>Numéro de téléphone</th>
+                        <th>Adresse</th>
+                        <th></th>
+                    </tr>
+                 
+                
+            </table>
+<!-- link of Script -->
+
+    <script src="script.js"></script>
+</body>
+</html>

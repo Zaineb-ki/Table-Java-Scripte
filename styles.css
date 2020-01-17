@@ -1,0 +1,95 @@
+
+body > table {
+    width: 100%;
+    font-family: "poppins";
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    font-family: "poppins";
+
+}
+.titre{
+    font-size: 16px !important;
+    font-family: "poppins"!important;
+    color: #72BDA3;
+}
+table{
+    border-collapse: collapse
+}
+table .person{
+    width: 100%;
+    margin-bottom: 54%;
+    margin-left: 8%;
+}
+table .formulaire{
+    margin-left: 8%;
+    width: 56%;
+}
+
+table .person{
+    margin: auto;
+    margin-top: 7%;
+    color: #ccc;
+    text-align: center;
+}
+
+
+tr:nth-child(even),table.person thead>tr{
+    background-color: gray;
+    color: white;
+    font-family: "poppins regular";
+}
+input[type=text], input[type=number]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input [type=button]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table .personel-list th{
+    justify-content: space-between;
+}
+.form-action-buttons{
+    margin-left: 1%;
+    margin-top: 0%;
+    
+    
+}
+.form-action-buttons input[type=submit]{
+    background-color: #72BDA3;
+	border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-family: "poppins";
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #8585b4;
+    margin-right: 4px;
+    font-size: 15px;
+    
+    
+}
+label .validation-error{
+    color: red;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
